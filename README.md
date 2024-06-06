@@ -28,10 +28,10 @@ netsh interface set interface name="Old Name" newname="New Name"
 
 #### 2. Install libcurl.lib to Visual 2022.
 2.1 Get latest vcpkg zip file from https://github.com/microsoft/vcpkg/releases (e.g. https://github.com/microsoft/vcpkg/archive/2019.09.zip) and extract it to a folder of your choice (e.g. C:\vcpkg\)
-2.2 Extract file and go to ...\vcpkg\. \\
-2.3 Manual click to run "bootstrap-vcpkg.bat" in folder vcpkg.\\
-2.4 vcpkg.exe integrate install.\\
-2.5 vcpkg.exe install curl.\\
+2.2 Extract file and go to ...\vcpkg\.  
+2.3 Manual click to run "bootstrap-vcpkg.bat" in folder vcpkg.  
+2.4 vcpkg.exe integrate install.  
+2.5 vcpkg.exe install curl.  
 Done.
 
 #### 3. Set priority internet in window 10
