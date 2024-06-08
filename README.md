@@ -67,3 +67,19 @@ Set-NetIPInterface -InterfaceAlias "LAN FPT" -InterfaceMetric 20
 ```
 *Note: metric number much be a number divisible by five.
 Done.
+
+#### 4.Setting Multiple Proxy Servers For Google Chrome and Internet Explorer
+
+Click the Windows Start button, then Control Panel.  
+In the Control Panel, go to Network and Internet and then click Internet Options. The Internet Properties window appears.  
+Click the Connections tab. Click the LAN Settings button.  
+Click the check box next to the Use a proxy server for your LAN and Bypass proxy server for local addresses option to enable them.  
+Click the Advanced button.  
+Now:  
+Enter the IP address of the proxy server to use for HTTP (standard Web page) connections in the HTTP field. Enter the port number used for the server in the Port field.  
+Type the IP address of the proxy server to use for SSL (encrypted or secure) connections in the Secure field. Enter the port number used for the server in the Port field.  
+Enter the IP address of the server to use for FTP (File Transfer Protocol) proxy requests in the FTP field. Type the connection port number of the FTP proxy server in the Port field.  
+Enter the SOCKS (Socket Secure) proxy server IP address in the SOCKS field. Type the connection port number of the SOCKS proxy server in the Port field.  
+Click OK to close the Connection Settings window.  
+Click Apply, then OK to save the proxy server settings and close the Internet Properties window.  
+Setting Multip  
