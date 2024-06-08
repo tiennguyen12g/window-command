@@ -87,3 +87,14 @@ Note Dane's recommendation for TCPView. It looks very useful!
 
 4.2 In search on Start fill it "Resource Monitor"
 It will show a GUI of Network connection
+4.3 Allow port in firewall on windown
+Run cmd with Administrator permit
+Create:
+```
+netsh advfirewall firewall add rule name="TCP Port 50001" dir=in action=allow protocol=TCP localport=50001
+```
+Delete:
+```
+netsh advfirewall firewall delete rule name="TCP Port 6624" protocol=TCP localport=6624
+```
+
