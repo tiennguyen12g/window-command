@@ -67,7 +67,12 @@ Set-NetIPInterface -InterfaceAlias "LAN FPT" -InterfaceMetric 20
 ```
 *Note: metric number much be a number divisible by five.
 Done.
-
+3.4 Delete an Virtual Ethernet
+```
+Remove-VMSwitch -Name "Primary Virtual Switch"
+and check again
+Get-VMSwitch
+```
 #### 4. List check IP, Port commands
 4.1 
 ```
