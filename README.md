@@ -78,6 +78,10 @@ Get-VMSwitch
 ```
 netstat -a -b
 ```
+or
+```
+route print
+```
 (Add -n to stop it trying to resolve hostnames, which will make it a lot faster.)
 
 Note Dane's recommendation for TCPView. It looks very useful!
