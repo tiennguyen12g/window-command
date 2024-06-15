@@ -110,4 +110,8 @@ Delete:
 ```
 netsh advfirewall firewall delete rule name="TCP Port 6624" protocol=TCP localport=6624
 ```
+4.4 Change Ethernet name
+```
+netsh interface set interface name="Currently Name" newname="New Name"
+```
 
