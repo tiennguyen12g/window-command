@@ -115,3 +115,10 @@ netsh advfirewall firewall delete rule name="TCP Port 6624" protocol=TCP localpo
 netsh interface set interface name="Currently Name" newname="New Name"
 ```
 
+#### 5. The folder is used in another process. Fix to delete.
+ ** Use Resource Monitor
+1. Press Windows + R, type resmon.exe, and hit Enter.
+2. Go to the CPU tab and expand Associated Handles.
+3. Type the folder name in the search bar.
+4. Right-click on any process using the folder and select End Process.
+
